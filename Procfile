@@ -1,1 +1,1 @@
-web: gunicorn Proyecto-Clinica.wsgi
+web: gunicorn proyecto.wsgi
