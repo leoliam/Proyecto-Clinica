@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block contenido %}
+<style type="text/css">
+	h1{color: #000000; text-align: center; text-decoration:underline;}
+	.cabe{font-weight: bold; background: #1E90FF; color: white;}
+	@page {
+  	margin: 0.5cm;
+  	margin-bottom: 3.0cm;
+  	@frame footer {
+    -pdf-frame-content: footerContent;
+    bottom: 1cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    height: 1cm;
+  }
+</style>
+</div>
+<table border="0">
+<th width="70%"><img src='static/images/titulo4.jpg'/></br><strong style="font-style:italic; font-size:13px;">&nbsp;&nbsp; Jr. Progreso 331 - Barranca  Telefono: 2352565 Celular: 998170923</strong></th>
+<th width="30%"><img align="right" src='static/images/logo3.jpg'/></th>
+</table>
+<hr>
+<div>
+	<h1>REPORTE DE SERVICIO POR EMPLEADO</h1>
+</div>
+<table border="1" style="padding: 8px 1px 1px 1px; background: #E6E6FA">
+<th width="20%" align="left" style="font-size:11px; font-family:Georgia;"><strong style="color: #000000;">NOMBRES Y APELLIDO :</strong>
+<th width="50%" align="left" style="font-size:11px; font-family:Georgia;"><strong style="color: #000000;">&nbsp;{{empleado.emp_nom}}</strong>&nbsp;{{empleado.emp_ape}}
+<th width="5%" align="left" style="font-size:11px; font-family:Georgia;"><strong style="color: #000000;">DNI :</strong> <strong style="color: #FF1493;"></th>
+<th width="25%" align="left" style="font-size:11px; font-family:Georgia;"><strong style="color: #000000;">&nbsp;{{empleado.DNI}}</strong> <strong style="color: #FF1493;">
+</table></br>
+<section>
+<div>
+<table border="1px" width="80%" align="center" height="10px" style="background: #eee; padding:3px" style="background: #eee;">
+	<th class="cabe">
+		Servicio
+	</th>
+	<th class="cabe">
+		Estado
+	</th>
+		{% for i in lista %}
+		<tr>
+			<td>
+				{{ i.servicio}}
+			</td>
+			<td>
+				{{ i.estado}}
+			</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+</section>
+<hr>
+<div id="footerContent" align="center">Pagina #<pdf:pagenumber /></div>
+{% endblock %}

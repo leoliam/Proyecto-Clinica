@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from jogjafile.com/html/plasma/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Sep 2014 03:16:34 GMT -->
+<head>
+	    <meta charset="utf-8">
+	    <title>Consultorio Progreso</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+	    {% load static from staticfiles %}
+	    <!-- Loading Bootstrap -->
+	    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+	    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+	    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'js/rs-plugin/css/settings.css' %}" media="screen" />
+		<link rel="stylesheet" type="text/css" href="{% static 'js/fancybox/jquery.fancybox.css' %}" media="screen" />
+
+	    <link rel="stylesheet" href="{% static 'css/skins/default.css' %}" data-name="skins">
+	    <link rel="stylesheet" type="text/css" href="{% static 'css/switcher.css' %}" media="screen" />
+
+
+	    <!-- Loading Flat UI -->
+	    <link href="{% static 'css/flat-ui.css' %}" rel="stylesheet">
+
+	    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
+		
+		<link href="{% static 'fonts/fontgoogle.css' %}" rel='stylesheet' type='text/css'>
+		
+	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	    <!--[if lt IE 9]>
+	      <script src="js/html5shiv.js"></script>
+	    <![endif]-->
+	</head>
+
+<body>
+	<!-- Preloader -->
+	<!--<div id="preloader">
+		<div id="status"></div>
+	</div>-->
+	
+	<header id ="top" class="mTop">
+		<div class="topHead">
+			<div class="container">
+				<div class="row">
+					<div class="topMenu">
+						<ul class="span12 topContact">
+							<li class="addresTop"><span class="icon-map-marker"></span>Jr. Progreso 331, Barranca.</li>
+							<li class="mailTop"><span class="icon-envelope"></span>consultorio.progreso@gmail.com</li>
+							<li class="phoneTop"><span class="icon-phone"></span>(+511) 2352565</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="headContent">
+			<div class="container">
+				<div class="row">
+					<div class="span4">
+						<div class="brand">
+							<a href="#"><img src="{% static 'images/logo4.png' %}" alt="Logo"></a>
+						</div>
+					</div>
+					<div class="span8">
+						<div class="menu" id="steak">
+							<nav>
+								<ul class="navMenu inline-list" id="nav"> 
+									<li class="current"><a href="#top">Inicio</a></li>
+									<li><a href="#about">Nosotros</a></li>
+									<li><a href="#service">Servicios</a></li>
+									<li><a href="#team">Equipo</a></li>
+									<li><a href="#portfolio">Galeria</a></li>
+									<li><a href="#blog">Agenda</a></li>
+									<li><a href="#contact">Contacto</a></li>
+									<li><a href="#">Login</a></li>
+								</ul>
+								<div class="clearfix"></div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!--Slider-->
+	<section class="revSlider">
+		<!-- START REVOLUTION SLIDER 2.3.91 -->
+			<div class="fullwidthbanner-container">
+					<div class="fullwidthbanner">
+						<ul>
+							<!-- SLIDEUP -->
+							<li data-transition="slide-Up" data-slotamount="7" data-thumb="img/revslider/transparent.png">
+								<img src="{% static 'img/revslider/3.jpg' %}" alt="sa">
+								
+								<div class="tp-caption plasma_def lft" data-x="300" data-y="130" data-speed="700" data-start="1200" data-easing="easeOutExpo">
+									Siempre velando por tu salud
+								</div>
+
+								<div class="tp-caption plasma_inverse lfl" data-x="240" data-y="192" data-speed="600" data-start="1900" data-easing="easeOutBack">
+									Lo mas importante es ...
+								</div>
+								
+								<div class="tp-caption plasma_white lfb" data-x="300" data-y="254" data-speed="500" data-start="2700" data-easing="easeOutBack">
+									Verlo sonreir siempre
+								</div>
+								
+								<!--<div data-easing="easeOutExpo" data-start="3000" data-speed="2500" data-y="320" data-x="530" class="caption lfr vivera_text_def tp-caption start" >
+                                	<a href="#" class="btn btn-huge btn-block btn-primary btn-embossed">Try it now!</a>
+                                </div>
+                                <div data-easing="easeOutExpo" data-start="3300" data-speed="2500" data-y="320" data-x="375" class="caption lfl vivera_text_def tp-caption start" >
+                                	<a href="#" class="btn btn-huge btn-block btn-inverse btn-embossed">Try it now!</a>
+                                </div>-->
+							</li>
+							 
+							<!-- BOX FADE -->
+							<li data-transition="boxfade" data-slotamount="7" data-thumb="img/revslider/transparent.png">
+								<img src="{% static 'img/revslider/5.jpg' %}" alt="sa">
+
+								<!--<div class="tp-caption lfb" data-x="0" data-y="60" data-speed="1000" data-start="900" data-easing="easeOutExpo">
+									<img src="{% static 'img/revslider/eco5.jpg' %}" alt="Poeple Slider">
+								</div>-->
+								<div class="tp-caption plasma_inverse lfr" data-x="600" data-y="150" data-speed="600" data-start="1100" data-easing="easeOutBack">
+									LABORATORIO DE PRESTIGIO 
+								</div>
+
+								<div class="tp-caption plasma_white lft" data-x="600" data-y="215" data-speed="500" data-start="1500" data-easing="easeOutBack">
+									CONFIANZA Y VALIDEZ
+								</div>
+
+								<div class="tp-caption plasma_inverse lfb" data-x="600" data-y="280" data-speed="700" data-start="1900" data-easing="easeOutExpo">
+									ACREDITACION ISO/IEC 15189 
+								</div>
+
+							</li>
+
+							<!-- RANDOM ROTATION -->
+							<li data-transition="randomrotate" data-slotamount="6" data-thumb="{% static 'img/revslider/transparent.png' %}">
+								<img class="tp-caption lfl" src="{% static 'img/revslider/6.jpg' %}" alt="tiga">
+								
+								<!--<div class="caption large_black_text sft tp-caption start"  data-x="0" data-y="80" data-speed="700" data-start="1200" data-easing="easeOutBack">
+									VIDEO PRESENT YOUR
+								</div>
+
+								<div class="caption very_large_black_text sft tp-caption start"  data-x="0" data-y="120" data-speed="700" data-start="1800" data-easing="easeOutBack">PRODUCT & SERVICES
+								</div>
+
+								<div class="caption medium_black_text text sft tp-caption start"  data-x="0" data-y="170" data-speed="700" data-start="2300" data-easing="easeOutBack">	Play Youtube & Vimeo Videos
+								</div>
+                                <div data-easing="easeOutExpo" data-start="2800" data-speed="900" data-y="220" data-x="0" class="caption lfl small_black_text tp-caption start" >
+                                	Lorem Ipsum which looks reasonable non charact eristic words,<br>making this the first true generato on the Internet uses a dictionary.<br/> Ipsum generators on the Internet tend to repeat predefined chunks<br>generators on the Internet tend to repeat predefined chunks as necessary,<br> humour randomise words which don't look even slightly believable!
+                                </div>-->
+
+                                <div class="tp-caption plasma_def lft"  data-x="0" data-y="120" data-speed="700" data-start="1800" data-easing="easeOutBack">La mas Avanzada Tecnologia
+								</div>
+
+								<div class="tp-caption plasma_white lfb"  data-x="0" data-y="190" data-speed="700" data-start="2300" data-easing="easeOutBack">Ecografias 3D Y 4D
+								</div>
+
+                                <div data-easing="easeOutExpo" data-start="2800" data-speed="900" data-y="260" data-x="0" class="tp-caption plasma_inverse lfl" >La mejor experiencia y sensacion 
+                                </div>
+                                
+                                <div data-easing="easeOutExpo" data-start="3300" data-speed="1000" data-y="360" data-x="0" class="caption lfb vivera_text_def tp-caption start" >
+                                	<!--<a href="#" class="btn btn-large btn-block btn-primary btn-embossed">Ver Videos</a>-->
+                                </div>
+
+                                <!--<div data-easing="easeOutExpo" data-start="3300" data-speed="1000" data-y="360" data-x="0" class="caption lfb vivera_text_def tp-caption start" >
+                                	<a href="#" class="btn btn-large btn-block btn-primary btn-embossed">Try it now!</a>
+                                </div>-->
+
+                                <div class="caption lft boxshadow" data-x="600" data-y="90" data-speed="900" data-start="1300" data-easing="easeOutExpo">
+									<iframe src="//player.vimeo.com/video/17175513?title=0&amp;byline=0&amp;portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+								</div>
+							</li>
+
+						</ul>
+						
+					</div>
+				</div>
+			<!-- END REVOLUTION SLIDER -->
+	</section>
+	
+	<!--Intro-->
+	<section class="intro" >
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<h4>Bienvenido al <span class="bold"></span><span class="colDefault">Consultorio Progreso</span></h4>
+					<p>Somos una empresa reconocida en el ámbito local que presta servicio a todos nuestros pacientes, sintiéndonos siempre útiles a nuestra comunidad de pacientes y tratando en todo momento de adaptarnos a las exigencias y las variables que los nuevos tiempos exigen.</p>
+
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-heart"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+
+		        <div class="span4">
+		          <div class="tile">
+		            <img class="tile-image" alt="Infinity-Loop@2x" src="{% static 'images/icons/p4.jpg' %}">
+		            <h3 class="tile-title">El Mejor Servicio</h3>
+		            <p>El trato más humano y horarios de consulta flexibles a tus necesidades.</p>
+		            <!--<a class="btn btn-small btn-primary btn-embossed" href="#fakelink">View More</a>-->
+		            
+		          </div>
+		        </div>
+
+		        <div class="span4">
+		          <div class="tile">
+		            <img class="tile-image" alt="Retina-Ready" src="{% static 'images/icons/p5.jpg' %}">
+		            <h3 class="tile-title">Alta Tecnologia</h3>
+		            <p>Los equipos y tratamientos más avanzados.</p>
+		            <!--<a class="btn btn-small btn-primary btn-embossed" href="#fakelink">View More</a>-->
+		            
+		          </div>
+		        </div>
+
+		        <div class="span4">
+		          <div class="tile tile-hot">
+		            <img class="tile-image" alt="Chat@2x" src="{% static 'images/icons/p6.jpg' %}">
+		            <h3 class="tile-title">Especialistas</h3>
+		            <p>Todo el personal es altamente especializado en nuestros servicios.</p>
+		            <!--<a class="btn btn-small btn-primary btn-embossed" href="#fakelink">View More</a>-->
+		            
+		          </div>
+		        </div>
+  			</div>		
+		</div>
+	</section>
+
+	<!--About-->
+	<section id="about" class="about grey">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="titleHead">
+						<h3>Nosotros</h3>
+						<p>El Consultorio Médico Progreso es una empresa, que cuenta con un staff de médicos especialistas en ginecología y patología altamente capacitados, que cuenta con una tecnología de última generación para brindar un servicio de alta calidad.</p>
+					</div>
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-user"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">	
+				<div class="span12">
+					<div class="flex-container"><!-- flex slider starts-->
+						<div class="flexslider">
+							<ul class="slides round">
+								<li><img src="{% static 'images/about/img1.jpg' %}" alt=" "/></li>
+								<li><img src="{% static 'images/about/img2.jpg' %}" alt=" "/></li>
+								<li><img src="{% static 'images/about/img3.jpg' %}" alt=" "/></li>
+								<li><img src="{% static 'images/about/img4.jpg' %}" alt=" "/></li>
+							</ul>
+						</div>
+					</div><!-- flex slider ends-->
+					<p>El Consultorio Médico Progreso fue creado el 22 de septiembre de 1994 por el doctor EDGAR ALCIDES COTRINA GAVEDIA quien se  inició brindado los servicios de consultas en medicina general y ginecología. En el 2003 culminada sus especializacion adquiere un ecografo de ultima generacion prestando una variedad de servicios para mejorar la calidad de atencion. En el 2006 se asocia con la Doctora ISEALA SANTOME TOLENTINO  especialista en Patologia y se apertura el Laboratorio Progreso</p>
+					<div class="mrg-30"></div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="span6">
+					<div class="titleContent">
+						<h6><span>Mision</span></h6>
+					</div>
+					<div class="description">
+						<p><span class="dropcap colDefault">B</span>indar servicios de salud confiables y seguros a nuestra comunidad orientándonos permanentemente hacia la excelencia.</p>
+						
+			
+					</div>
+				</div>
+
+				<div class="span6 skill">
+					<div class="titleContent">
+						<h6><span>Vision</span></h6>
+					</div>
+
+					<div class="description">
+						<p><span class="dropcap colDefault">S</span>er reconocidos en el ámbito de salud por nuestro prestigio, trayectoria y vocación de servicio, orientados a nuestros pacientes, clientes y colaboradores.</p>
+						
+	
+					</div>
+
+				</div>
+			</div> <!--./row-->
+
+
+				</div>
+			<!--</div>
+
+		</div>-->
+	</section>
+
+	<!--SEPARATOR-->
+	<section class="separator default">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<!-- Testimonials Start -->
+					<div class="testimonials">
+						<div class="wrapper testi-container">
+							<div class="testi" id="testi-slider">
+								<ul class="slides">
+
+								     <!-- Testimonials 1 -->
+								     <li>
+									     <div class="testimonialPicture">
+									     	<img src="{% static 'img/testimonials/user.jpg' %}" alt="" />
+									     </div>
+									     <p> Me atendi mis 3 embarazos. Siempre se preocuparon por los bebes y por mi tranquilidad. En mis tres embarazos prestaron especial cuidado en que yo llevara una vida más tranquila, no tan agitada, pues tuve varias veces amenazas de aborto. Con cada una de las amenazas me mandaba a descansar a mi casa. Son muy precavidos y a la misma vez muy cariñosos con sus pacientes, siempre te hacen sentir especial de alguna manera.</p>
+
+								    	 <p class="testio">Lucía, 38 años de edad</p>
+									 	
+								     </li>
+
+									 <!-- Testimonials 2 -->
+								     <li>
+									     <div class="testimonialPicture">
+									     	<img src="{% static 'img/testimonials/user2.jpg' %}" alt="" />
+									     </div>
+									     <p> Nos proporcionaron la información adecuada a mi situación, quiero decir no solo se fijó en el diagnóstico, sino que lo combinó con que soy una mujer joven que quiere tener más hijos, con mi historial, etc. Me dio las opciones para tomar la decisión que mejor me pareciera, sin embargo no dejó de darme su recomendación con su respectivo argumento. Todo esto, sumado a un trato muy humano y delicado.</p>
+									     <p class="testio">Rosa, 27 años de edad</p>
+								     </li>
+									 
+								     <!-- Testimonials 3 -->
+								     <li>
+									     <div class="testimonialPicture">
+									     	<img src="{% static 'img/testimonials/user3.jpg' %}" alt="" />
+									     </div>
+									     <p> Los doctores no descuidan ningún aspecto, su profesionalismo es indiscutible y su preocupación e interés por el bienestar de sus pacientes va incluso más allá de la relación médico-paciente.Estoy realmente satisfecha, sobretodo por la calidad de la atención recibida tanto profesional como personalmente.</p>
+									     <p class="testio">Marite, 33 años de edad</p>
+								     </li>
+								</ul> 
+							</div> 
+						</div>
+					</div><!-- Testimonials End -->				
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--SERVICES-->
+	<section id="service" class="services">
+		<div class="container">
+
+
+			<div class="row">
+				<div class="span12">
+					<div class="titleHead">
+						<h3>Nuestros Servicios</h3>
+						<p>Permaneceremos siempre en la búsqueda de lo mejor para brindarlo a nuestros pacientes, <br/>prestando un servicio competitivo, confiable y de alta calidad.</p>
+					</div>
+					
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-gear"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="span6">
+					<div class="titleContent">
+						<h6><span>Medicina General</span></h6>
+					</div>
+					<div class="description">
+						<p><span class="dropcap colDefault">E</span>ste servicio es brindado por un médico general, médico familiar o especialista, dependiendo del nivel de complejidad, incluye un conjunto de actividades mediante las cuales se evalúa el estado de salud y los factores de riesgo biológicos, sicológicos, sociales y culturales de este grupo poblacional, con el objeto de detectar precozmente circunstancias o patologías que puedan alterar su desarrollo y salud.</p>		
+					</div>
+					<div class="titleContent">
+						<h6><span>Ginecologia</span></h6>
+					</div>
+					<div class="titleContent">
+						<p><span class="dropcap colDefault">C</span>ontamos con especialistas en ginecología debidos a que toda mujer debe realizarse por lo menos un chequeo ginecológico al año a travez de distintos examenes</p>
+					</div>
+
+				</div>
+
+
+
+			<div class="row">
+				
+				<div class="span6">
+					<div class="titleContent">
+						<h6><span>Servicios</span></h6>
+					</div>
+
+				         <ul class="nav nav-tabs nav-append-content">
+		            <!--<li class=""><a href="#tab1">Consulta Medica Especializada</a></li>-->
+				            <li class="dropdown">
+
+				              <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+				                Medicina General
+				                <b class="caret"></b>
+				              </a>
+				              <ul class="dropdown-menu">
+				              	{% for i in consulta3 %}
+				                <li><a href="#{{ i.id}}">{{ i.servi_nom}}</a></li>
+				                {% endfor %}
+				              </ul>
+
+				            </li>
+				            <li>        	
+				            	 <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+				                Ginecologia
+				                <b class="caret"></b>
+				              </a>
+				              <ul class="dropdown-menu">
+				              	{% for i in consulta4 %}
+				                <li><a href="#{{ i.id}}">{{ i.servi_nom}}</a></li>
+				              	{% endfor %}
+				              </ul>
+
+				            </li>
+				            <li>		            	
+				            	<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+				                Obtetricia
+				                <b class="caret"></b>
+				              </a>
+				              <ul class="dropdown-menu">
+				             	{% for i in consulta5 %}
+				                <li><a href="#{{ i.id}}">{{ i.servi_nom}}</a></li>
+				                {% endfor %}
+				              </ul>
+
+				            </li>
+
+		          		</ul>
+
+		          <div class="tab-content">
+
+			        
+			            <div id="tab3" class="tab-pane active">
+		              		<p style="color:#95a5a6;">(Seleccione Servicio)</p>
+		              		
+			            </div>
+
+			             {% for i in consulta3 %}
+			            <div id="{{ i.id}}" class="tab-pane">
+			              <p>COSTO: S/.{{ i.servi_costo}}</p>
+						  <p>{{ i.servi_descripcion}}</p>
+			            </div>
+			            {% endfor %}
+
+			            <!-- /tabs -->
+			            {% for i in consulta4 %}
+			            <div id="{{ i.id}}" class="tab-pane">
+			              <p>COSTO: S/.{{ i.servi_costo}}</p>
+						  <p>{{ i.servi_descripcion}}</p>
+			            </div>
+			            {% endfor %}
+
+			            {% for i in consulta5 %}
+			            <div id="{{ i.id}}" class="tab-pane">
+			              <p>COSTO: S/.{{ i.servi_costo}}</p>
+						  <p>{{ i.servi_descripcion}}</p>
+			            </div>
+			            {% endfor %}
+
+		          	</div>
+				</div>
+			</div> <!--./row-->
+
+			</div>
+
+
+			<div class="row">
+				<div class="span6">
+				<div class="titleContent">
+					<h6><span>Laboratorio Clinico</span></h6>
+				</div>
+					<div id="accordion" class="accordion">
+                        <!--<div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle active" href="#col1" data-toggle="collapse">Accordion 1</a>
+                            </div>
+                            <div id="col1" class="accordion-body collapse">
+                                <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque
+                                    sit amet libero magna. Mauris at enim vel nibh scelerisque porttitor id ut leo. Phasellus
+                                    pretium, leo a lobortis aliquam, nunc tortor pulvinar ipsum, et vulputate lacus tortor a
+                                    eros.
+                                    Morbi consequat velit eget augue porttitor vitae molestie diam rutrum.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle" href="#col2" data-toggle="collapse">Accordion 2</a>
+                            </div>
+                            <div id="col2" class="accordion-body in collapse">
+                                <div class="accordion-inner">
+                                    Phasellus porta ultrices ante at facilisis. Fusce ornare turpis
+                                    sit amet lacus egestas elementum. Curabitur risus nunc, consequat ac euismod at, rhoncus in
+                                    diam.
+                                    Duis vel rhoncus eros. Phasellus ut neque nec tellus fringilla viverra. Donec pellentesque
+                                    lectus a quam blandit dictum iaculis mauris ultricies. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle" href="#col3" data-toggle="collapse">Accordion 3</a>
+                            </div>
+                            <div id="col3" class="accordion-body collapse">
+                                <div class="accordion-inner">Vestibulum ut nunc eu neque mollis accumsan. Fusce est ante,
+                                    ultrices
+                                    sed rutrum et, dictum ac nulla. Maecenas posuere bibendum fermentum. Donec iaculis, urna
+                                    quis
+                                    pellentesque rhoncus, justo est iaculis diam, pulvinar congue est tellus vel metus. Donec
+                                    aliquet facilisis sapien. Donec tempor hendrerit purus a dapibus. Praesent aliquet leo ante.
+                                    Donec non leo lacus, vitae venenatis augue. Vestibulum quam augue, congue a consectetur sed,
+                                    eleifend a mi.
+                                </div>
+                            </div>
+                        </div>-->
+
+
+                        {% for i in consulta %}
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle" href="#{{ i.id}}" data-toggle="collapse">{{ i.servi_nom}}</a>
+                            </div>
+                            <div id="{{ i.id}}" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                	<p>Costo: S/.{{ i.servi_costo }}</p>
+                                </div>
+                            </div>
+                        </div>
+                     {% endfor %}
+
+                    </div>			
+				</div>
+
+				<div class="span6">
+				<div class="titleContent">
+					<h6><span>Ecografia</span></h6>
+				</div>
+					<div id="accordion" class="accordion">
+					
+					 {% for i in consulta2 %}
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle" href="#{{ i.id}}" data-toggle="collapse">{{ i.servi_nom}}</a>
+                            </div>
+                            <div id="{{ i.id}}" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                 	<p>Costo: S/.{{ i.servi_costo }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        <!--<div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle active" href="#col4" data-toggle="collapse">Accordion 1</a>
+                            </div>
+                            <div id="col4" class="accordion-body collapse">
+                                <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque
+                                    sit amet libero magna. Mauris at enim vel nibh scelerisque porttitor id ut leo. Phasellus
+                                    pretium, leo a lobortis aliquam, nunc tortor pulvinar ipsum, et vulputate lacus tortor a
+                                    eros.
+                                    Morbi consequat velit eget augue porttitor vitae molestie diam rutrum.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle" href="#col5" data-toggle="collapse">Accordion 2</a>
+                            </div>
+                            <div id="col5" class="accordion-body in collapse">
+                                <div class="accordion-inner">
+                                    Phasellus porta ultrices ante at facilisis. Fusce ornare turpis
+                                    sit amet lacus egestas elementum. Curabitur risus nunc, consequat ac euismod at, rhoncus in
+                                    diam.
+                                    Duis vel rhoncus eros. Phasellus ut neque nec tellus fringilla viverra. Donec pellentesque
+                                    lectus a quam blandit dictum iaculis mauris ultricies. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a data-parent="#accordion" class="accordion-toggle" href="#col6" data-toggle="collapse">Accordion 3</a>
+                            </div>
+                            <div id="col6" class="accordion-body collapse">
+                                <div class="accordion-inner">Vestibulum ut nunc eu neque mollis accumsan. Fusce est ante,
+                                    ultrices
+                                    sed rutrum et, dictum ac nulla. Maecenas posuere bibendum fermentum. Donec iaculis, urna
+                                    quis
+                                    pellentesque rhoncus, justo est iaculis diam, pulvinar congue est tellus vel metus. Donec
+                                    aliquet facilisis sapien. Donec tempor hendrerit purus a dapibus. Praesent aliquet leo ante.
+                                    Donec non leo lacus, vitae venenatis augue. Vestibulum quam augue, congue a consectetur sed,
+                                    eleifend a mi.
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>			
+				</div>
+		</div>
+
+
+					<!--<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Responsive%402x.png' %}" alt="ma">
+						</div>
+						<div class="servDetil">
+						<h4>Responsive</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Spaceship%402x.png' %}" alt="">
+						</div>
+						<div class="servDetil">
+						<h4>Quick Launch</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Graph%402x.png' %}" alt="">
+						</div>
+						<div class="servDetil">
+						<h4>Awesome features</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Gift-Box%402x.png' %}" alt="">
+						</div>
+						<div class="servDetil">
+						<h4>Font icons</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/File%402x.png' %}" alt="plasma">
+						</div>
+						<div class="servDetil">
+						<h4>Documentation</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Magic%402x.png' %}" alt="plasma">
+						</div>
+						<div class="servDetil">
+						<h4>Fully Tested</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Shield%402x.png' %}" alt="plasma">
+						</div>
+						<div class="servDetil">
+						<h4>File Protection</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Letter-Symbol%402x.png' %}" alt="plasma">
+						</div>
+						<div class="servDetil">
+						<h4>Twitter Bootstrap</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>
+
+					<div class="span4 servContent">
+						<div class="ico">
+							<img src="{% static 'images/icons/Retina-Ready%402x.png' %}" alt="plasma">
+						</div>
+						<div class="servDetil">
+						<h4>Retina Ready</h4>
+						<p>Sed nec nunc justo. In eget lacus ead. Cras ac nisi mauris, eu bibendum est. Sed lacinia, augue vitae cursus culis, ligula lacus ornare risus benaro sero.</p>
+						</div>
+					</div>-->
+			
+
+
+		</div>
+	</section>
+
+	<!--Team-->
+	<section id="team" class="team grey">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="titleHead">
+						<h3>Nuestro Equipo</h3>
+						<p>Consultorio Progreso cuenta con un equipo de profesionales de alta cualificación y <br/>total dedicación a sus pacientes.</p>
+					</div>
+					
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-myspace"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+			
+			<!-- myTeam Widget -->
+			<div class="myTeam">
+				<div class="profile">
+					<div class="span3 profPeople">
+						<div class="photoTeam">
+							<div class="overlay"></div>
+							<div class="socialTeam">
+								<ul>
+									<li><a href="https://www.facebook.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a></li>
+									<li><a href="https://twitter.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://instagram.com/accounts/login/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Instagram"><i class="icon-instagram"></i></a></li>
+								</ul>
+							</div>
+							<img src="{% static 'img/myTeam/dc1.jpg' %}" alt="">
+						</div>
+						<div class="info">
+								<span class="name">Dr. Felix Alegre</span>
+								<span class="job">Farmacia y Analisis Clinicos</span>
+							<p>Dedicacion Preferencial a la Hematologías y Anatomía Patológica.</p>
+						</div>
+					</div>
+
+					<div class="span3 profPeople">
+						<div class="photoTeam">
+							<div class="overlay"></div>
+							<div class="socialTeam">
+								<ul>
+									<li><a href="https://www.facebook.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a></li>
+									<li><a href="https://twitter.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://instagram.com/accounts/login/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Instagram"><i class="icon-instagram"></i></a></li>
+								</ul>
+							</div>
+							<img src="{% static 'img/myTeam/dc2.jpg' %}" alt="">
+						</div>
+						<div class="info">
+							<span class="name">Dr. Juan Alcazar</span>
+							<span class="job">Ginecología y Obstetricia</span>
+							<p>Dedicación preferencial a la ecografía de alta resolución en obstetricia y ginecología así como a la ginecología oncológica</p>
+						</div>
+					</div>
+						
+					<div class="span3 profPeople">
+						<div class="photoTeam">
+							<div class="overlay"></div>
+							<div class="socialTeam">
+								<ul>
+									<li><a href="https://www.facebook.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a></li>
+									<li><a href="https://twitter.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://instagram.com/accounts/login/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Instagram"><i class="icon-instagram"></i></a></li>
+								</ul>
+							</div>
+							<img src="{% static 'img/myTeam/dc3.jpg' %}" alt="">
+						</div>
+						<div class="info">
+							<span class="name">Dra. Maria Auba</span>
+							<span class="job">Ginecología y Obstetricia</span>
+							<p>Dedicación preferencial a la ginecología general y obstetricia, patología del suelo pélvico y uroginecología</p>
+						</div>
+					</div>
+						
+					<div class="span3 profPeople">
+						<div class="photoTeam">
+							<div class="overlay"></div>
+							<div class="socialTeam">
+								<ul>
+									<li><a href="https://www.facebook.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a></li>
+									<li><a href="https://twitter.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://instagram.com/accounts/login/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Instagram"><i class="icon-instagram"></i></a></li>
+								</ul>
+							</div>
+							<img src="{% static 'img/myTeam/dc4.jpg' %}" alt="">
+						</div>
+						<div class="info">
+							<span class="name">Dra. Arancha Fernandez </span>
+							<span class="job">Medicina General</span>
+							<p>Especialista en Medicina Interna, Medicina Familiar y Comunitaria</p>
+						</div>
+					</div>
+					
+					</div>
+				</div> <!--end row-->
+			</div>
+		</div>
+	</section>
+
+	<!--SEPARATOR-->
+	<section class="separator default">
+		<div class="container">
+			<div class="row">
+				<div class="span12 text-center">
+					<i class="icon-twitter awesome32"></i>
+					<div class="twitter-feed"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Portfolio-->
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="titleHead">
+						<h3>Galeria</h3>
+						<p>La Ecografia es una técnica que se realiza en tiempo real, lo que nos permite interactuar con el paciente: <br/>preguntarle, ver la estructura interna en movimiento del vientre materno.</p>
+					</div>
+					
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-image"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<!--begin isotope -->
+	            <div class="isotope">
+	                <!--begin portfolio filter -->
+	                <ul id="filter" class="option-set clearfix">
+	                    <li data-filter="*" class="selected"><a href="#">Todos</a></li>
+	                    <li data-filter=".responsive"><a href="#">2D</a></li>
+	                    <li data-filter=".mobile"><a href="#">3D</a></li>
+	                    <li data-filter=".branding"><a href="#">4D</a></li>
+	                </ul>
+	                <!--end portfolio filter -->
+	                
+	                <!--begin portfolio_list -->   
+	                 <ul id="list" class="portfolio_list">
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 responsive">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/2d1.jpg' %}" class="fancybox" data-rel="gallery1" title="Saco Amniótico">
+	                                <img src="{% static 'images/photos/2d1.jpg' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2> 12 Semanas</h2>
+	                            <span>Saco Amniótico</span>
+	                        </div>
+	                        
+	                    </li>
+	                    <!--end span4 -->
+	                    
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 mobile">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/3d1.jpg' %}" class="fancybox" data-rel="gallery1" title="Espera de Gemelos">
+	                                <img src="{% static 'images/photos/3d1.jpg' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>5 Semanas</h2>
+	                            <span>Espera de Gemelos</span>
+	                        </div>
+	                        
+	                    </li>
+	                    <!--end span4 -->
+	                    
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 branding">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/4d4.gif' %}" class="fancybox" data-rel="gallery1" title="Rostro en Movimiento">
+	                                <img src="{% static 'images/photos/4d4.gif' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>32 Semanas</h2>
+	                            <span>Rostro en Movimiento</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->
+	                     
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 responsive">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/2d2.jpg' %}" class="fancybox" data-rel="gallery1" title="Corazon y Arterias">
+	                                <img src="{% static 'images/photos/2d2.jpg' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>16 Semanas</h2>
+	                            <span>Corazon y Arterias</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->
+	                    
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 mobile">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/3d2.jpg' %}" class="fancybox" data-rel="gallery1" title="Rostro Varios Angulos">
+	                                <img src="{% static 'images/photos/3d2.jpg' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>32 Semanas</h2>
+	                            <span>Rostro Varios Angulos</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->
+	                    
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 branding">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/4d6.gif' %}" class="fancybox" data-rel="gallery1" title="Todo el Cuerpo">
+	                                <img src="{% static 'images/photos/4d6.gif' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>29 Semanas</h2>
+	                            <span>Todo el Cuerpo</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->
+	                    
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 branding">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/4d5.gif' %}" class="fancybox" data-rel="gallery1" title="Bostesos">
+	                                <img src="{% static 'images/photos/4d5.gif' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>30 Semanas</h2>
+	                            <span>Bostesos</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->
+	                     
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 responsive">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/2d3.jpg' %}" class="fancybox" data-rel="gallery1" title="Identificacion del Sexo">
+	                                <img src="{% static 'images/photos/2d3.jpg' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>2O Semanas</h2>
+	                            <span>Identificacion del Sexo</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->
+	                    
+	                    <!--begin span4 -->
+	                    <li class="list_item span4 mobile">
+	                        <div class="view view-first">
+	                            <a href="{% static 'images/photos/3d3.jpg' %}" class="fancybox" data-rel="gallery1" title="Cuerpo Completo">
+	                                <img src="{% static 'images/photos/3d3.jpg' %}" alt="Title Goes Here">
+	                                <span class="mask">
+	                                    <span class="fui-search zoom"></span>
+	                                </span>
+	                            </a>
+	                        </div>
+	                    
+	                        <div class="portfolio_details">
+	                            <h2>35 Semanas</h2>
+	                            <span>Cuerpo Completo</span>
+	                        </div>
+	                    </li>
+	                    <!--end span4 -->          
+	                </ul> <!--end portfolio_list -->
+	                
+	            </div>
+	            <!--end isotope -->
+			</div>
+		</div>	
+	</section>
+
+	<!--Blog-->
+	<section id="blog" class="blog grey">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="titleHead">
+						<h3>Latest Blogs</h3>
+						<p>Nullam ut consectetur dolor. Sed sit amet iaculis nisi. <br/>Mauris elementum non felis et blandit. Vestibulum iaculis quam nec diam.</p>
+					</div>
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-chat"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+
+				<!-- News Carousel-->
+				<div class="list_carousel span12">
+
+	            	<!-- News List-->
+					<ul id="blog-carousel">
+	                    <li>
+	                        <div class="blogs">
+	                        <img src="{% static 'images/blog/news1.jpg' %}" alt="" />			
+	                        <div class="mask">                    
+								<a class="group1 icon zoom" href="news.html" title="Plasma Articles"></a>
+	                        </div>
+	                        </div>
+	                        
+	                        <div class="blogContent">
+		                        <a class="group1" href="news.html" title="blogs"><h5>Morbi felis risus</h5></a>
+		                        <div class="newsDetil">
+		                        	<span>
+		                        		<i class="icon-calendar"></i>
+		                        		<a href="#" class="date">09/10/2013</a>
+		                        	</span>
+		                        	<span>
+		                        		<i class="icon-user"></i>
+		                        		<a href="#" class="date">Admin</a>
+		                        	</span>
+		                        </div> 
+
+		                        <p>Morbi felis risus, feugiat vel lacinia eu, aliquam eu nisl. Aliquam magna velit, vulputate quis tincidunt eget, scelerisque et dui. Proin et nisi justo, nec pretium mi consectetur adipiscing elit.</p>
+
+	                        </div>
+	                        
+	                    </li>
+	                    
+	                    <li>
+	                        <div class="blogs">
+	                        	<img src="{% static 'images/blog/news2.jpg' %}"  alt=""  />			
+	                        <div class="mask">                    
+	                        <a class="group1 icon zoom" href="news.html" title="Plasma Articles"></a>
+	                        </div>
+	                        </div>
+	                        
+	                        <div class="blogContent">
+	                        <a class="group1" href="news.html" title="blogs"><h5>pretium mi consectetur</h5></a>
+	                        <div class="newsDetil">
+		                        	<span>
+		                        		<i class="icon-calendar"></i>
+		                        		<a href="#" class="date">09/10/2013</a>
+		                        	</span>
+		                        	<span>
+		                        		<i class="icon-user"></i>
+		                        		<a href="#" class="date">Admin</a>
+		                        	</span>
+		                        </div> 
+	                        <p>Morbi felis risus, feugiat vel lacinia eu, aliquam eu nisl. Aliquam magna velit, vulputate quis tincidunt eget, scelerisque et dui. Proin et nisi justo, nec pretium mi consectetur adipiscing elit.</p>
+	                        </div>
+	                        
+	                    </li>
+	                    
+	                    <li>
+	                        <div class="blogs">
+	                        <img src="{% static 'images/blog/news3.jpg' %}"  alt=""  />			
+		                        <div class="mask">                    
+		                        	<a class="group1 icon zoom" href="news.html" title="Plasma Articles"></a>
+		                        </div>
+	                        </div>
+	                        
+	                        <div class="blogContent">
+	                        <a class="group1" href="news.html" title="blogs"><h5>vulputate quis tincidunt</h5></a>
+	                        <div class="newsDetil">
+		                        	<span>
+		                        		<i class="icon-calendar"></i>
+		                        		<a href="#" class="date">09/10/2013</a>
+		                        	</span>
+		                        	<span>
+		                        		<i class="icon-user"></i>
+		                        		<a href="#" class="date">Admin</a>
+		                        	</span>
+		                        </div> 
+	                        <p>Morbi felis risus, feugiat vel lacinia eu, aliquam eu nisl. Aliquam magna velit, vulputate quis tincidunt eget, scelerisque et dui. Proin et nisi justo, nec pretium mi consectetur adipiscing elit.</p>
+	                        
+	                        </div>
+	                        
+	                    </li>
+	                    
+	                    <li>
+	                        <div class="blogs">
+		                        <img src="{% static 'images/blog/news4.jpg' %}"  alt=""  />			
+		                        <div class="mask">                    
+		                        	<a class="group1 icon zoom" href="news.html" title="Plasma Articles"></a>
+		                        </div>
+	                        </div>
+	                        
+	                        <div class="blogContent">
+	                        	<a class="group1" href="news.html" title="blogs"><h5>Donec ullamcorper nulla</h5></a>
+	                        	<div class="newsDetil">
+		                        	<span>
+		                        		<i class="icon-calendar"></i>
+		                        		<a href="#" class="date">09/10/2013</a>
+		                        	</span>
+		                        	<span>
+		                        		<i class="icon-user"></i>
+		                        		<a href="#" class="date">Admin</a>
+		                        	</span>
+		                        </div> 
+	                        	<p>Morbi felis risus, feugiat vel lacinia eu, aliquam eu nisl. Aliquam magna velit, vulputate quis tincidunt eget, scelerisque et dui. Proin et nisi justo, nec pretium mi consectetur adipiscing elit.</p>
+	                        </div>
+	                        
+	                    </li>
+	                    
+	                    <li>
+	                        <div class="blogs">
+	                        <img src="{% static 'images/blog/news5.jpg' %}"  alt=""  />			
+	                        <div class="mask">                    
+	                        <a class="group1 icon zoom" href="news.html" title="Plasma Articles"></a>
+	                        </div>
+	                        </div>
+	                        
+	                        <div class="blogContent">
+	                        <a class="group1" href="news.html" title="Plasma Articles"><h5>feugiat vel lacinia eu</h5></a>
+	                        <div class="newsDetil">
+		                        	<span>
+		                        		<i class="icon-calendar"></i>
+		                        		<a href="#" class="date">09/10/2013</a>
+		                        	</span>
+		                        	<span>
+		                        		<i class="icon-user"></i>
+		                        		<a href="#" class="date">Admin</a>
+		                        	</span>
+		                        </div>  
+	                        <p>Morbi felis risus, feugiat vel lacinia eu, aliquam eu nisl. Aliquam magna velit, vulputate quis tincidunt eget, scelerisque et dui. Proin et nisi justo, nec pretium mi consectetur adipiscing elit.</p>
+	                        
+	                        </div>
+	                        
+	                    </li>
+					</ul>
+	                <!--/News List-->
+	                                 
+				</div>
+                <!-- News Navigation-->
+            <div id="news-navigation" class="pagination">
+            	<ul>
+                    <li class="previous" ><a id="prev2" href="#"><i class="fui-arrow-left"></i></a></li>
+                    <li class="next" ><a id="next2" href="#"><i class="fui-arrow-right"></i></a></li>
+            	</ul>
+            </div>
+			<!-- News Navigation-->               
+
+			<!--/News Carousel-->
+		</div>
+		</div>
+	</section>
+
+	<!--SEPARATOR-->
+	<section class="separator default">
+		<div class="container">
+			<div class="row">
+				<div class="span7">
+					<div class="descSubscribe">
+						<i class="fui-mail"></i>
+						<h5>Please sign-up for our newsletter to get notified!</h5>
+						<p>Duis tempor rhoncus quam, at blandit nulla egestas vitae. Morbi ut turpis nunc, risus dictum tempor luctus, quam augue blandit sapien. </p>
+					</div>
+				</div>
+				<div class="span5">
+					<div class="subscribe">
+						<form class="control-group">
+					        <input type="text" class="flat" placeholder="Your E-mail" id="EmailSubs">
+					        <button class="btn btn-embossed btn-large btn-inverse">Subscribe</button>
+				      	</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Contact-->
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="titleHead">
+						<h3>Contactanos</h3>
+					</div>
+					<!--DIVIDER-->
+					<div class="divider">
+						<div class="divLine"></div>
+						<div class="divImg">
+							<i class="icon fui-mail"></i>
+						</div>
+						<div class="divLine"></div>
+					</div>
+				</div>
+			</div>	
+
+
+			<!-- Contact Form -->
+			<div class="row">
+				
+				<!--<div class="span12">
+					<div id="map"></div> 
+				</div>-->
+
+				<div class="google-maps"><iframe src="https://mapsengine.google.com/map/embed?mid=zvx0Oo7LJbc8.kKdqGbu1ua4g" width="600" height="450" style="border:0" frameborder="0"></iframe></div>
+				
+				<div class="contact_info span6">
+					<h6><span>Informacion Detallada</span></h6>
+					<p>
+						Si desea contar con más información acerca de nuestros servicios y especialidades, o si tiene algún comentario, puede acercarse a nuestros locales, llamarnos a nuestra central teléfonica, o vía nuestro formulario de contacto web.<br/><br/><br/><br/><br/>
+					</p>
+				
+					<div class="row">
+						<address class="adr span6">
+							<span class="road"><em class="icon-map-marker"></em>Jr. Progreso 331, Barranca.</span>
+							<br/>
+							<span class="phone"><em class="icon-phone"></em>(+511) 2352565</span>
+							<br/>
+							<span class="web">
+								<em class="icon-globe"></em>
+								<a href="#">www.consultorio.progreso.com</a>
+							</span>
+							<br/>
+							
+						</address>
+					</div>
+					<!-- End Contact Form -->
+				</div>
+				
+				
+				<div class="contact_info span6">
+					<h6><span>Escribenos</span></h6>
+				<!-- #contact-form -->
+					<form id="contact-form" name="contact-form" method="post" action="http://jogjafile.com/html/plasma/contact.php">
+						<div class="row-fluid">
+							<p class="span6"><input id="username" name="username" type="text" tabindex="1" value="" placeholder="Nombre (requerido)"></p>
+							<p class="span6"><input id="email" name="email" type="text" tabindex="2" value="" placeholder="E-mail (requerido)"></p>
+						</div>
+						<div class="row">
+							<p class="span6"><textarea id="message" name="message" tabindex="4" rows="6" placeholder="Mensaje (requerido)"></textarea></p>
+						</div>
+						<div class="row">
+							<div class="span2">
+								<button id="sending" type="submit" class="btn btn-embossed btn-large btn-primary" data-send="Sending...">Enviar</button>
+							</div>
+						</div>
+					</form>
+
+					<!-- /#contact-form -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Footer-->
+	<footer class="footer grey">
+		<div class="container">
+			<div class="row">
+				<div class="span6">
+					<div class="copyright">
+						<p>&copy; 2014. Todos los Derechos Reservados. </p>
+					</div>
+				</div>
+
+				<div class="span6">
+					<ul class="bottom-icons">
+		              <li><a class="fui-facebook" href="https://www.facebook.com/" target="_blank"></a></li>
+		              <li><a class="fui-googleplus" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX" target="_blank"></a></li>
+		            </ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Load JS here for greater good =============================-->
+	<script type="text/javascript" src="{% static 'ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;language=en"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.nav.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.sticky.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.parallax-1.1.3.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.lavalamp-1.4.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.scrollTo.js' %}"></script>
+
+	<script type="text/javascript" src="{% static 'js/rs-plugin/js/jquery.themepunch.plugins.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.carouFredSel-6.1.0-packed.js' %}"></script> 
+	<script type="text/javascript" src="{% static 'js/jquery.bxslider.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.colorbox.js' %}"></script>    
+	<script type="text/javascript" src="{% static 'js/jquery.isotope.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/fancybox/jquery.fancybox.pack.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.gmap.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/flex-slider.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.placeholder.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.tweet.js' %}"></script>
+
+	<script type="text/javascript" src="{% static 'js/main.js' %}" charset="utf-8"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/styleswitch.js' %}"></script>
+
+<div class="switcher"></div>
+</body>
+
+<!-- Mirrored from jogjafile.com/html/plasma/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Sep 2014 03:19:35 GMT -->
+</html>

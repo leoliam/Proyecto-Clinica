@@ -1,0 +1,18 @@
+	<th>Servicio</th>
+	{% for i in lista %}
+	<th>
+		{{ i.fecha}}
+	</th>	
+	{% endfor %}
+	{% for i in lista %}
+	<tr>
+		<td>
+		{{ i.servicio}}
+		</td>	
+			{% for i in lista %}
+				<td>
+				{{ i.turno}}
+				</td>
+			{% endfor %}
+	</tr>	
+	{% endfor %}
