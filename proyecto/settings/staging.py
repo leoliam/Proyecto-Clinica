@@ -1,6 +1,8 @@
 from .base  import *
 
-DEBUG = True
+DEBUG = False
+TEMPLATE_DEBUG = False
+ALLOWED_HOSTS = ['*']
 
 ALLOWED_HOSTS = []
 
@@ -18,3 +20,4 @@ DATABASES = {
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR.child('static')]
+STATIC_ROOT = 'staticfiles'
