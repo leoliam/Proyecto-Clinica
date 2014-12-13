@@ -9,7 +9,7 @@ from django.http import HttpResponse, Http404
 
 
 class IndexView(TemplateView):
-	template_name = 'inicio/login.html'
+	template_name = 'inicio/index.html'
 
 def cargar_servicio(request):
 	consulta = Servicio.objects.select_related().filter(area__area_nom__icontains='Laboratorio')
