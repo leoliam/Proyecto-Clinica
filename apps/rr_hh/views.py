@@ -280,6 +280,13 @@ def HomeHorario(req):
 	return render(req, 'rr_hh/programacion.html', tmpl_vars)
 
 
+def HomeSolicitud(req):
+	tmpl_vars = {		
+		'form': RegistrarProgramacionForm()
+	}	
+	return render(req, 'rr_hh/ReporteSolicitud.html', tmpl_vars)
+
+
 def CreateHorario(request):	
 	if request.method == 'POST':
 		form = RegistrarProgramacionForm(request.POST)		
@@ -332,6 +339,7 @@ def CreateHorario(request):
 
 def GestionHorario(req):		
 	return render(req, 'rr_hh/GestionProgramacion.html')
+
 
 
 def BuscarHorario(request):		

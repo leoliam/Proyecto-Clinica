@@ -58,5 +58,7 @@ USE_L10N = True
 USE_TZ = True
 
 TEMPLATE_DIRS=[BASE_DIR.child('templates')]
+MEDIA_ROOT = BASE_DIR.child('media')
 
+MEDIA_URL = 'http://localhost:8000/media/'
 AUTH_PROFILE_MODULE = 'rr_hh.Empleado'

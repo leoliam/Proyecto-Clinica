@@ -71,7 +71,7 @@
 									<li><a href="#portfolio">Galeria</a></li>
 									<li><a href="#blog">Agenda</a></li>
 									<li><a href="#contact">Contacto</a></li>
-									<li><a href="{% url 'login' %}">Login</a></li>
+									<li id="logueo"><a href="#">Login</a></li>
 								</ul>
 								<div class="clearfix"></div>
 							</nav>
@@ -171,6 +171,14 @@
 									<iframe src="//player.vimeo.com/video/17175513?title=0&amp;byline=0&amp;portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 								</div>
 							</li>
+
+							{% for i in consulta6 %}
+							
+							<li data-transition="boxfade" data-slotamount="7" data-thumb="img/revslider/transparent.png">
+								<img  src="{{MEDIA_URL}}{{i.imagen}}" alt="sa">
+								
+							</li>
+							{% endfor %}
 
 						</ul>
 						
@@ -1349,6 +1357,14 @@
 	<script type="text/javascript" src="{% static 'js/main.js' %}" charset="utf-8"></script>
 	<script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}"></script>
 	<script type="text/javascript" src="{% static 'js/styleswitch.js' %}"></script>
+
+	<script >
+	$("#logueo").on("click", metodo)
+	function metodo()
+	{
+		$(location).attr('href',"{% url 'login' %}"); 
+	}
+	</script>
 
 <div class="switcher"></div>
 </body>
